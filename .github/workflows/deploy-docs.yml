@@ -1,8 +1,6 @@
 
 name: 部署文档
 
-base: open-source
-
 on:
   push:
     branches:
