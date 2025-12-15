@@ -4,9 +4,9 @@ layout: Blog
 icon: house
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: Ultimate Vision
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 人工智能时代，如何做并不重要，重要的是你要做什么
 projects:
   - icon: folder-open
     name: 项目名称

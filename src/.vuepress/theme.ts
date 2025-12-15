@@ -1,7 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+// import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enSidebar } from "./sidebar/en.js";
+import { zhSidebar } from "./sidebar/zh.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
@@ -156,12 +158,12 @@ export default hopeTheme({
     vPre: true,
 
     // uncomment these if you need TeX support
-    // math: {
-    //   // install katex before enabling it
-    //   type: "katex",
-    //   // or install @mathjax/src before enabling it
-    //   type: "mathjax",
-    // },
+    math: {
+      // install katex before enabling it
+      type: "katex",
+      // or install @mathjax/src before enabling it
+      // type: "mathjax",
+    },
 
     // install chart.js before enabling it
     // chartjs: true,

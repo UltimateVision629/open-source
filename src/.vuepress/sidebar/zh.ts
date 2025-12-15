@@ -1,6 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
+import { paper } from "./zh/paper.js";
 
 export const zhSidebar = sidebar({
+  "/zh/paper/": paper,
   "/zh/": [
     "",
     {
