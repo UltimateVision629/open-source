@@ -1,9 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbar, zhNavbar } from "./navbar/index.js";
-// import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { enSidebar } from "./sidebar/en.js";
-import { zhSidebar } from "./sidebar/zh.js";
+import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",

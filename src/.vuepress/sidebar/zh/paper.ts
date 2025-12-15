@@ -1,6 +1,6 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import { sidebar } from "vuepress-theme-hope";
 
-export const paper = arraySidebar([
+export const paper = sidebar([
   {
     text: "论文",
     icon: "book",
